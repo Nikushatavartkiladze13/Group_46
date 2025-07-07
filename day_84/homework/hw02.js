@@ -15,7 +15,7 @@ function userAge(age){
 }
 
 
-userAge(60)
+userAge(24)
 
 
 
