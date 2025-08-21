@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(198, 209, 230, 0.678);
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 35px;
+    background-color: rgba(255, 255, 255, 0.853);
+    border-radius: 10px;
+}
+
+
+.instagram {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 9.4px;
+}
+
+input {
+    padding: 13px 65px 13px 14px;
+    background-color: #e7e7e752;
+    color: #656565;
+    border: 1px solid #aeaeae60;
+    outline: none;
+    border-radius: 3.5px;
+
+}
+
+input::placeholder {
+    color: #8d8d8d;
+    font-weight: 500;
+}
+
+
+form button {
+    width: 100%;
+    padding: 9.9px;
+    color: white;
+    font-weight: 600;
+    background-color: #4db5f9;
+    border: none;
+    border-radius: 8.5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.divider {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100% ;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #939292b5;
+    font-weight: 700;
+}
+
+.divider::before,
+.divider::after {
+    flex: 1;
+    content: '';
+    padding: 0.8px;
+    background-color: #a6a6a67a;
+    margin: 10px;
+}
+
+
+.p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #385185;
+    
+}
