@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    gap: 40px;
+}
+
+
+.div {
+    padding: 50px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    background-color: rgba(30 30 30 / 20%);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+}
+
+
+form {
+    gap: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: white;
+}
+
+input{
+    padding: 10px 14px 10px 14px;
+    width: 100%;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+
+}
+
+
+
+button{
+    margin-top: 8.5px;
+    width: 100%;
+    padding: 13px 0px;
+    background-color: #95a096;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.03);
+}
+
+::-webkit-calendar-picker-indicator{
+    color: #95a096;
+    font-size: 24px;
+    margin-left: 100px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
