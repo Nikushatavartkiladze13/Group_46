@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(235, 18%, 26%);
+    font-family: "Roboto";
+}
+
+
+
+.parent-div {
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-div {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 35px 50px 35px 35px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+li {
+    display: flex;
+    gap: 20px;
+    color: hsl(235, 18%, 26%);
+    font-weight: 500;
+    font-size: 16.5px;
+}
+
+h1 {
+    font-size: 3.3rem;
+    color: hsl(234, 29%, 20%);
+    font-weight: 600;
+}
+
+p {
+    font-size: 16.5px;
+    color: hsl(235, 18%, 26%);
+    font-weight: 500;
+    line-height: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 18px 15px 18px 25px;
+    border-radius: 8px;
+    border: 1px solid hsl(0, 0%, 58%);
+    font-size: 1rem;
+    outline: none;
+    color: hsl(0, 0%, 58%)
+}
+
+input::placeholder{
+    color: hsl(0, 0%, 58%);
+    font-weight: 500;
+}
+
+form label {
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+    font-size: 13px;
+
+}
+
+
+button{
+    padding: 22px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 8px;
+    border: none;
+
+}
