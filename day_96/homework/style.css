@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d6d6d6;
+    font-family: "Roboto";
+}
+
+
+.calculator-div {
+    padding: 35px 25px 100px;
+    border-radius: 12px;
+    box-shadow: -5px -5px 10px #eeeeee,
+        5px 5px 10px #bdb7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+
+
+.button-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 12px;
+    row-gap: 16px;
+}
+
+button {
+    padding: 20px 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #d6d6d6;
+    box-shadow: -5px -5px 10px #eeeeee,
+        5px 5px 10px #bdb7b7;
+    border-radius: 8.5px;
+    font-weight: 600;
+    color: black;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.c-button {
+    background-color: #fa0401;
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    width: 100%;
+    padding: 20px 18px;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #7e7e7f;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: inset -5px -5px 10px #f5f5f5,
+       inset 5px 5px 10px #bdb7b791;
+    font-family: "Roboto", sans-serif;
+}
