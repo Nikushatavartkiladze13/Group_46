@@ -11,28 +11,28 @@
 <body>
     <div class="calculator-div">
         <form id="form">
-            <input type="text" placeholder="0" readonly>
+            <input type="text" placeholder="0" readonly id="result">
         </form>
-        <div class="button-div">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="button">+</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="button">-</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="button">X</button>
-            <button class="c-button">C</button>
+        <div id="symbols">
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+            <button onclick="display('+')" class="button">+</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+            <button onclick="display('-')" class="button">-</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+            <button onclick="display('*') "class="button">X</button>
+            <button onclick="cleardisplay()" class="c-button">C</button>
             <button>0</button>
-            <button class="button">=</button>
-            <button class="button">/</button>
+            <button class="button" onclick="calculate()">=</button>
+            <button onclick="display('/')" class="button">/</button>
         </div>
     </div>
-    <script src="hw.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
