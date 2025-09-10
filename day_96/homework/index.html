@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=backspace" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,11 +27,16 @@
             <button onclick="display('7')">7</button>
             <button onclick="display('8')">8</button>
             <button onclick="display('9')">9</button>
-            <button onclick="display('*') "class="button">X</button>
-            <button onclick="cleardisplay()" class="c-button">C</button>
-            <button>0</button>
+            <button onclick="display('*') " class="button">X</button>
+            <button class="c-button" onclick="deleteValue()">
+                <span class="material-symbols-outlined">
+                    backspace
+                </span>
+            </button>
+            <button onclick="display('0')">0</button>
             <button class="button" onclick="calculate()">=</button>
             <button onclick="display('/')" class="button">/</button>
+            
         </div>
     </div>
     <script src="index.js"></script>
